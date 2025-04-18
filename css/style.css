@@ -1,0 +1,113 @@
+body {
+    background: linear-gradient(to right, #f7f9fc, #eef2f7);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .hero {
+    padding: 80px 0;
+    background: #ffe8d6;
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  .card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .register-btn {
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .register-btn:hover {
+    background-color: #e65c00;
+  }
+
+.navbar-brand {
+    font-size: 1.6rem;
+    color: #007bff !important;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    margin-left: 15px;
+    color: #333;
+    transition: all 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff6600;
+  }
+  
+
+  .form-section {
+    margin-top: 100px;
+    max-width: 600px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  .form-section h2 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  .form-control:focus {
+    border-color: #ff6600;
+    box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
+  }
+
+  .btn-custom {
+    background-color: #ff6600;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 25px;
+  }
+
+  .btn-custom:hover {
+    background-color: #e65c00;
+  }
+
+  .error-msg {
+    color: red;
+    font-size: 0.9rem;
+    display: none;
+  }
+
+  .table-container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  }
+  .logout-btn {
+    background: #dc3545;
+    color: #fff;
+    border-radius: 30px;
+    padding: 6px 20px;
+    text-decoration: none;
+    float: right;
+  }
